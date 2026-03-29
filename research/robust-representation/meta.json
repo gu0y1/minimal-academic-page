@@ -1,0 +1,7 @@
+{
+  "title": "Robust Representation Learning",
+  "year": 2024,
+  "status": "Ongoing",
+  "summary": "Developing methods for learning representations that are robust to distribution shifts and adversarial perturbations.",
+  "tags": ["representation learning", "robustness", "deep learning"]
+}

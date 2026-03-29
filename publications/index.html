@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications — Your Name</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+</head>
+<body>
+<header id="site-header"></header>
+<main>
+  <section>
+    <h2>Publications</h2>
+    <p>Full list on <a href="https://scholar.google.com/">Google Scholar</a>.</p>
+    <div id="items"></div>
+  </section>
+</main>
+<footer id="site-footer"></footer>
+<script src="../common.js"></script>
+<script>initLayout('../'); loadItems('items', 'publications');</script>
+</body>
+</html>

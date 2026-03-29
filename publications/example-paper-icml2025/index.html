@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efficient Gradient Methods — Your Name</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+</head>
+<body>
+<header id="site-header"></header>
+<main>
+  <div class="detail-header">
+    <h2>Efficient Gradient Methods for Large-Scale Optimization</h2>
+    <div class="detail-meta">
+      Author A, <u>Your Name</u>, Author C<br>
+      <em>International Conference on Machine Learning (ICML)</em>, 2025
+    </div>
+  </div>
+
+  <p><strong>Abstract.</strong>
+    We propose a new family of gradient methods that achieve near-optimal
+    convergence rates for large-scale non-convex optimization. Our key idea is
+    to combine momentum with adaptive step sizes via:
+  </p>
+
+  <p>$$x_{t+1} = x_t - \eta_t \cdot m_t, \quad m_t = \beta m_{t-1} + (1-\beta)\nabla f(x_t)$$</p>
+
+  <p>We prove that this achieves an $O(1/\sqrt{T})$ convergence rate.</p>
+
+  <p>
+    [<a href="https://arxiv.org/">Paper</a>]
+    [<a href="https://github.com/">Code</a>]
+    [<a href="#">Slides</a>]
+  </p>
+
+  <!-- Add figures, additional details, BibTeX, etc. below -->
+</main>
+<footer id="site-footer"></footer>
+<script src="../../common.js"></script>
+<script>initLayout('../../');</script>
+</body>
+</html>

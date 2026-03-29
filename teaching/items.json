@@ -1,0 +1,11 @@
+[
+  {
+    "title": "CS 101 — Introduction to Computer Science",
+    "semester": "Spring 2025",
+    "role": "Instructor",
+    "year": 2025,
+    "summary": "An introductory course covering fundamental concepts in computer science including algorithms, data structures, and programming.",
+    "folder": "cs101-spring2025",
+    "has_page": true
+  }
+]

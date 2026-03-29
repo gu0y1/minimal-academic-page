@@ -1,0 +1,24 @@
+name: Build items.json
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate items.json for each section
+        run: python build.py
+
+      - name: Commit updated items.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update items.json"
+          file_pattern: "*/items.json"

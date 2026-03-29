@@ -1,0 +1,12 @@
+{
+  "title": "Efficient Gradient Methods for Large-Scale Optimization",
+  "authors": "Author A, <u>Your Name</u>, Author C",
+  "venue": "International Conference on Machine Learning (ICML)",
+  "year": 2025,
+  "summary": "We propose a new family of gradient methods that achieve near-optimal convergence rates for large-scale non-convex optimization problems.",
+  "tags": ["optimization", "deep learning"],
+  "links": {
+    "paper": "https://arxiv.org/",
+    "code": "https://github.com/"
+  }
+}

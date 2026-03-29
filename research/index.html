@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Your Name</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+</head>
+<body>
+<header id="site-header"></header>
+<main>
+  <section>
+    <h2>Research</h2>
+    <p>My research lies at the intersection of <strong>[Area A]</strong> and <strong>[Area B]</strong>.</p>
+    <div id="items"></div>
+  </section>
+</main>
+<footer id="site-footer"></footer>
+<script src="../common.js"></script>
+<script>initLayout('../'); loadItems('items', 'research');</script>
+</body>
+</html>
